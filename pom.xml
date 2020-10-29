@@ -21,22 +21,22 @@
 	<url>http://www.example.com</url>
 
 	<build>
-<!--		<finalName>job4j_forum</finalName>-->
-<!--		<plugins>-->
-<!--			<plugin>-->
-<!--				&lt;!&ndash; Build an executable JAR &ndash;&gt;-->
-<!--				<groupId>org.apache.maven.plugins</groupId>-->
-<!--				<artifactId>maven-jar-plugin</artifactId>-->
-<!--				<version>3.1.0</version>-->
-<!--				<configuration>-->
-<!--					<archive>-->
-<!--						<manifest>-->
-<!--							<mainClass>com.forum.Main</mainClass>-->
-<!--						</manifest>-->
-<!--					</archive>-->
-<!--				</configuration>-->
-<!--			</plugin>-->
-<!--		</plugins>-->
+		<finalName>job4j_forum</finalName>
+		<plugins>
+			<plugin>
+				<!-- Build an executable JAR -->
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>3.1.0</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>com.forum.Main</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins>
 		<pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
 		  <plugins>
 			<plugin>
