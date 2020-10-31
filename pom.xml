@@ -31,6 +31,9 @@
 				<configuration>
 					<archive>
 						<manifest>
+							<addClasspath>true</addClasspath>
+<!--							<classpathPrefix>lib/</classpathPrefix>-->
+							<classpathPrefix>dependency/</classpathPrefix>
 							<mainClass>com.forum.Main</mainClass>
 						</manifest>
 					</archive>
@@ -48,8 +51,7 @@
 							<goal>copy-dependencies</goal>
 						</goals>
 						<configuration>
-<!--							<outputDirectory>target/dependency/</outputDirectory>-->
-							<outputDirectory>src/main/webapp/WEB-INF/lib/</outputDirectory>
+							<outputDirectory>target/dependency/</outputDirectory>
 							<overWriteReleases>false</overWriteReleases>
 							<overWriteSnapshots>false</overWriteSnapshots>
 							<overWriteIfNewer>true</overWriteIfNewer>
