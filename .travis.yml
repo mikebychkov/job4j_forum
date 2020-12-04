@@ -17,3 +17,9 @@ notifications:
       -mihailbichkov@yandex.ru
     on_success: never # default: change
     on_failure: always # default: always
+
+deploy:
+  provider: heroku
+  app: mysterious-ravine-92713
+  api_key:
+    secure: DBiZcX/bkgIDF8zUhRfQ3FY/k30heB+diR0HixYX6BYA1dyVubdbn2oO97NA5EYu2Bb9dCtrR3J+WOQSNW79rPixpJ5kegRTUm40/VHDkFB2kcG6iUdsAQMPZ4LpSAq8/QIlwzFI5kwEXeEMvQZL5nNGucBvnZv2ZtMK0Q4/o1lKeYDXtalEDxeJAw8XxGs9CUxkYGffUmq8YmRME7L30IjIBqYxYPTlZkT+76evtajiscdCsJMkH1iFSE5X5hqwiuWsQmEJ85PJO3dDAdpvhRON9vq6kArmo08V75l+VDBCNJ7pAulRyl0qInU3nJbnvwJYZRx5ckUBSdlRCBATEJDMZUdIXHGTWbYzIzKvsjUNR43yH7XxH9dEORZLqn60kNH1Gn3Vjnx6agKitFSbyQJF9A0DO8pOzIqrXOEuPdxWiKwALY+9X6S+cpHytj8RsOtVyhTaKeFj4ZExcwRlVw2PAXquwOjWZLBX/IHmZ/k134ht/OfSL/wVvMSZgrXhmmaVNlzB8eHJiuZlsebV/TX4YPXM1RZ68W85uxyjzUcrnaCEoRYR5Pf/atTDeIR0PuLuKTr+/PT64j3HF4KJbkx8BF2wBMGxRN6z88vD2ihe5v6QJSQU+4Ney0gDZYoE0GdHjhRjj/FtQRdIW7hTF+EeeWHE7qY1f3+TsRQkVM0=
